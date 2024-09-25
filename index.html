@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的宝贝成长记录</title>
+    <link rel="stylesheet" href="styles.css?v=4">
+</head>
+<body>
+    <header>
+        <div class="logo">宝贝成长记</div>
+        <div id="baby-selector">
+            <button id="first-baby" class="baby-button active">大宝</button>
+            <button id="second-baby" class="baby-button">二宝</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="slideshow">
+            <!-- 照片轮播区域将在这里 -->
+        </section>
+
+        <section id="monthly-gallery">
+            <!-- 时间轴瀑布流区域将在这里 -->
+        </section>
+
+        <section id="timeline-gallery" style="display: none;">
+            <!-- 时间轴瀑布流区域将在这里 -->
+        </section>
+    </main>
+
+    <footer>
+        <p>版权所有 © 2024</p>
+        <p>联系我们: example@email.com</p>
+    </footer>
+
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js?t=5"></script>
+</body>
+</html>
